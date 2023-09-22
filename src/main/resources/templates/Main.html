@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Agenda API</title>
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
+    <style>
+        .center-text {
+            text-align: center;
+            font-size: 60px;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="center-text">Nombre y Carné: <span th:text="${@mainController.mostrarNombre()}"></span></h1>
+</body>
+</html>
